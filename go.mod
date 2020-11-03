@@ -1,3 +1,3 @@
-module github.com/guanfenglinux/gomod/Flist
+module github.com/guanfenglinux/gomod
 
 go 1.15
