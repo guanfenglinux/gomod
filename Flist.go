@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 )
 
-func Glist(path string) string {
+func Glist(path string) {
 	err := filepath.Walk(path, func(path string, f os.FileInfo, err error) error {
 		if f == nil {
 			return err
