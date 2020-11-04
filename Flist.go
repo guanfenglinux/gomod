@@ -21,3 +21,8 @@ func Glist(path string) {
 		fmt.Printf("filepath.Walk() returned %v\n", err)
 	}
 }
+
+func Add(a, b int) int {
+	c := a + b
+	return c
+}
